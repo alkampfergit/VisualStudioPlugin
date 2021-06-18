@@ -54,7 +54,6 @@ namespace Company.AlkampferVsix.Commands
                     {
                         ListViewItem lvi = new ListViewItem();
                         lvi.Tag = proc;
-                        string engineList = null;
                         lvi.Text = proc.ProcessID.ToString();
                         lvi.SubItems.Add(proc.UserName);
                         lvProcesses.Items.Add(lvi);
